@@ -1,0 +1,98 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.7 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \sortlist[entry]{none/global/}
+    \entry{QSComps}{article}{}
+      \name{author}{2}{}{%
+        {{hash=acb9d2a0152b4a313539acf6322accbd}{%
+           family={Selinger},
+           family_i={S\bibinitperiod},
+           given={Shlomo},
+           given_i={S\bibinitperiod}}}%
+        {{hash=966b0fcf84a85371a93f353ba8ee8996}{%
+           family={Stamler},
+           family_i={S\bibinitperiod},
+           given={Hanna},
+           given_i={H\bibinitperiod}}}%
+      }
+      \strng{namehash}{2bec4ea18fcdc9cbefa2429d79142bd3}
+      \strng{fullhash}{2bec4ea18fcdc9cbefa2429d79142bd3}
+      \field{sortinit}{0}
+      \field{sortinithash}{990108227b3316c02842d895999a0165}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The dimensions take-off of building elements is the most tedious and time-consuming stage in the quantity surveying procedure. A computerized comprehensive method of quantity surveying aimed at reducing work invested in this stage has been developed. The method is based on geometric representation of the structure elements of a building (columns, beams, slabs and walls) in a three-dimensional co-ordinate system. This enables the intersections and contact areas between elements to be defined by the computer program. Consequently, the dimensions take-off, to be carried out by the quantity surveyor, is significantly reduced and simplified. The method has been developed for quantity surveying of buildings with rectangular structure elements whose edges are parallel to the axes of the co-ordinate system. The general approach of this method may, however, be extended to other kinds of buildings. The approach is likely to be of value in the development of computer graphic systems. [ABSTRACT F}
+      \field{issn}{01446193}
+      \field{journaltitle}{Construction Management \& Economics}
+      \field{number}{1}
+      \field{title}{Computerized method for quantity surveying.}
+      \field{volume}{1}
+      \field{year}{1983}
+      \field{pages}{75}
+      \range{pages}{1}
+      \verb{url}
+      \verb http://search.ebscohost.com/login.aspx?direct=true%5C&db=buh%5C&AN=5423155%5C&site=ehost-live
+      \endverb
+      \keyw{ESTIMATES,CONSTRUCTION industry,COMPUTER software,ENGINEERING,BUILDING,QUANTITY surveying,BUILDING materials,COMPUTER graphics,Buildings,computers,quantity surveying.}
+    \endentry
+    \entry{CADsoft}{misc}{}
+      \field{sortinit}{0}
+      \field{sortinithash}{990108227b3316c02842d895999a0165}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{http://www.cadazz.com/cad-software-history.htm}}
+      \field{note}{(Accessed on 11/29/2016)}
+      \field{title}{CAD software history CAD CAM computer aided design}
+    \endentry
+    \entry{RobotBuilder}{misc}{}
+      \field{sortinit}{0}
+      \field{sortinithash}{990108227b3316c02842d895999a0165}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{http://news.sky.com/story/watch-robot-builder-construct-house-in-two-days-10514890}}
+      \field{note}{(Accessed on 11/29/2016)}
+      \field{title}{Watch robot builder construct house in two days}
+    \endentry
+    \entry{RobotSurvey1}{misc}{}
+      \field{sortinit}{0}
+      \field{sortinithash}{990108227b3316c02842d895999a0165}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://www.bdcnetwork.com/robots-drones-and-printed-buildings-promise-automated-construction}}
+      \field{note}{(Accessed on 11/29/2016)}
+      \field{title}{Robots, drones, and printed buildings: The promise of automated construction | Building Design + Construction}
+    \endentry
+    \entry{RobotSurvey2}{misc}{}
+      \field{sortinit}{0}
+      \field{sortinithash}{990108227b3316c02842d895999a0165}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{http://www.bbc.co.uk/news/technology-35746648}}
+      \field{note}{(Accessed on 11/29/2016)}
+      \field{title}{Tomorrow's Buildings: Construction industry goes robotic - BBC News}
+    \endentry
+    \entry{AnalysisWithComp}{misc}{}
+      \field{sortinit}{0}
+      \field{sortinithash}{990108227b3316c02842d895999a0165}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{http://www.bbc.co.uk/news/magazine-30438180}}
+      \field{note}{(Accessed on 11/29/2016)}
+      \field{title}{The buildings that would have been impossible - BBC News}
+    \endentry
+  \endsortlist
+\endrefsection
+\endinput
+

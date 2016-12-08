@@ -1,0 +1,183 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Simple Sectioned Essay Template
+% LaTeX Template
+%
+% This template has been downloaded from:
+% http://www.latextemplates.com
+%
+% Note:
+% The \lipsum[#] commands throughout this template generate dummy text
+% to fill the template out. These commands should all be removed when 
+% writing essay content.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[11pt]{article} % Default font size is 12pt, it can be changed here
+
+\usepackage{geometry} % Required to change the page size to A4
+\geometry{a4paper} % Set the page size to be A4 as opposed to the default US Letter
+
+\usepackage{graphicx} % Required for including pictures
+
+\usepackage{float} % Allows putting an [H] in \begin{figure} to specify the exact location of the figure
+\usepackage{wrapfig} % Allows in-line images such as the example fish picture
+
+\usepackage{fancyhdr}
+
+\linespread{1.0} % Line spacing
+
+%\setlength\parindent{0pt} % Uncomment to remove all indentation from paragraphs
+
+\graphicspath{{Pictures/}} % Specifies the directory where pictures are stored
+
+\usepackage[
+sorting=none,
+minbibnames=8,
+maxbibnames=9,
+block=space,
+backend=biber
+]{biblatex}
+\bibliography{export}
+
+%----
+% HEADER
+%-----
+
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{ \today}
+\lhead{Impossible engineering made possible with computers}
+\rfoot{Page \thepage}
+\lfoot{Thomas Brereton: 1708846}
+
+
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	TITLE PAGE
+%----------------------------------------------------------------------------------------
+
+%\begin{titlepage}
+%
+%\newcommand{\HRule}{\rule{\linewidth}{0.5mm}} % Defines a new command for the horizontal lines, change thickness here
+%
+%\center % Center everything on the page
+%
+%\textsc{\LARGE University Name}\\[1.5cm] % Name of your university/college
+%\textsc{\Large Major Heading}\\[0.5cm] % Major heading such as course name
+%\textsc{\large Minor Heading}\\[0.5cm] % Minor heading such as course title
+%
+%\HRule \\[0.4cm]
+%{ \huge \bfseries Title}\\[0.4cm] % Title of your document
+%\HRule \\[1.5cm]
+%
+%\begin{minipage}{0.4\textwidth}
+%\begin{flushleft} \large
+%\emph{Author:}\\
+%John \textsc{Smith} % Your name
+%\end{flushleft}
+%\end{minipage}
+%~
+%\begin{minipage}{0.4\textwidth}
+%\begin{flushright} \large
+%\emph{Supervisor:} \\
+%Dr. James \textsc{Smith} % Supervisor's Name
+%\end{flushright}
+%\end{minipage}\\[4cm]
+%
+%{\large \today}\\[3cm] % Date, change the \today to a set date if you want to be precise
+%
+%%\includegraphics{Logo}\\[1cm] % Include a department/university logo - this will require the graphicx package
+%
+%\vfill % Fill the rest of the page with whitespace
+%
+%\end{titlepage}
+
+%----------------------------------------------------------------------------------------
+%	TABLE OF CONTENTS
+%----------------------------------------------------------------------------------------
+
+%\tableofcontents % Include a table of contents
+%
+%\newpage % Begins the essay on a new page instead of on the same page as the table of contents 
+
+%----------------------------------------------------------------------------------------
+%	INTRODUCTION
+%----------------------------------------------------------------------------------------
+
+\section*{Reflection Essay}
+\subsection*{Impossible engineering made possible with computers} % Major section
+
+My previous area of study was civil engineering and I also worked as a structural engineer for two and a half years. This paper highlights the dramatic impact computer science has had in this area.  More specifically, the topics discussed are engineering drawings, quantity surveying, construction, and engineering design.
+
+Engineering drawings must be exact as structures and buildings are constructed from reading and measuring off them. They are the final product of much design and many calculations. Therefore, it is not hard to imagine creating these drawings is a tedious process. Computer science has enabled rapid creation of engineering drawings via Computer Aided Design (CAD) software packages\cite{CADsoft}. CAD programs increase the speed of producing drawings and significantly reduce the number of errors made. Even if errors are made, drawings can easily be amended through the CAD programs. More interestingly, three dimensional (3D) models can now be modelled in CAD programs and distributed to people on site using touch screen devices (e.g. an iPad). This means engineers can now interact with 3D drawings by zooming, panning, and rotating to view critical and difficult to see sections of the structure. This is immensely helpful as it provides clarification during construction, therefore reducing the number of mistakes. In summary, engineering drawings have improved dramatically from tedious hand drawings, to 3D models distributed to interactive touch screen devices. In the future, it may become common to actually send 3D models to 3D printers to produce components for constructions cheaply. 
+
+Computers and CAD have also influenced many other areas of engineering, such as quantity surveying. The main task of a Quantity Surveyor (QS) is to quantify the costs for a given project. Before the introduction of computers, a QS had to peruse through all the engineering drawings to produce reports which list the quantity and cost for all materials. Now, this can all be calculated via CAD programs \cite{QSComps}. CAD programs know the type of material being used (i.e. steel or concrete) , the total length or area for each, and the density of each. With this information, it is possible for CAD to determine the total weight for each material and, therefore, compute their total cost.  A QS must still confirm these numbers but the process is shortened considerably. This is beneficial to quantity surveying as they can complete their tasks quicker, thus reducing costs per project. In short, the tasks of quantity surveyors have become easier, thus, leading to significant increase in productivity. With the development of natural language processing, these reports may become fully generated, therefore, automating the process completely.
+
+Another area influenced by computers is the work completed on construction sites. Historically, structures have been built by skilled tradesmen as construction is a complicated process with low margin of error. For example, a Bricklayer must complete an apprenticeship and only then are they qualified to erect masonry buildings alone. However, advances in robotics allow houses almost entirely without skilled workers and in a  fraction of the time\cite{RobotBuilder}. This robot \cite{RobotBuilder} can lay all the bricks for a house within three days and ``without the need for tea breaks''\cite{RobotBuilder}. This is a vast improvement and reduces construction costs significantly. This is highly beneficial for developing countries where skilled workers are in short supply. These robots can be used to rapidly build many houses for people without any shelter. However, if they become commonplace in developed countries, this will lead to many construction workers without jobs. On the other hand, this use of robotics makes way for a interesting possibilities in the future and one such possibility is the use of drones for inspecting gas pipelines for leaks\cite{RobotSurvey2}. 
+
+The final topic of interest is how computers have made impossible engineering designs possible. Structural analysis software programs enable engineers to build full three-dimensional models of buildings and simulate any effect acting upon it. This is such a significant feat that Tom Maver from the Mackintosh School of Architecture states, ``these aren't just buildings that were improved using digital tools, they would not have been built'' \cite{AnalysisWithComp}. For example, St Mary's Axe, or more commonly known as `The Gherkin,' was only possible because engineers could build a complete 3D model to analyse unpredictable wind effects. They discovered high wind forces occurring at the base which would not have been seen otherwise. The engineers could then easily iterate through different models to find the optimum structure to account for these forces. This process lead to the unique egg-shape of `The Gherkin' seen today. This goes to show that structural analysis software is a revolutionary engineering feat, and more impressive and economical buildings are being built because of it. The tall economical buildings help society by increasing population density which, in turn, is better by making a more sustainable city infrastructure. These programs have spawned a race for the most interesting and economical structure, and we should expect many more of these structures in the future. 
+
+To summarise, computer science has had an astounding effect in the world of civil engineering. Computers have improved production, distribution, and interaction of drawings; automated much of the tedious tasks for a quantity surveyor; allowed impossible buildings to be designed; and spawned robots which can build houses. All in all, it has revolutionised the industry and many more advances should be expected in the future. Furthermore, this increased prevalence of robots, drones, and artificial intelligence is bringing about another industrial revolution making it a exhilarating time for the current age.
+
+
+
+
+
+
+%------------------------------------------------
+
+
+
+%----------------------------------------------------------------------------------------
+%	MAJOR SECTION X - TEMPLATE - UNCOMMENT AND FILL IN
+%----------------------------------------------------------------------------------------
+
+%\section{Content Section}
+
+%\subsection{Subsection 1} % Sub-section
+
+% Content
+
+%------------------------------------------------
+
+%\subsection{Subsection 2} % Sub-section
+
+% Content
+
+%----------------------------------------------------------------------------------------
+%	CONCLUSION
+%----------------------------------------------------------------------------------------
+
+%\section{Conclusion} % Major section
+%asdsad \cite{deitel:1} adsads.
+%\lipsum[12-13]
+
+
+
+%----------------------------------------------------------------------------------------
+%	BIBLIOGRAPHY
+%----------------------------------------------------------------------------------------
+
+\begin{thebibliography}{99} % Bibliography - this is intentionally simple in this template
+	
+\nocite{*} 
+
+\printbibliography[heading=none]
+
+%\bibitem[Figueredo and Wolf, 2009]{Figueredo:2009dg}
+%Figueredo, A.~J. and Wolf, P. S.~A. (2009).
+%\newblock Assortative pairing and life history strategy - a cross-cultural
+%  study.
+%\newblock {\em Human Nature}, 20:317--330.
+ 
+\end{thebibliography}
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
